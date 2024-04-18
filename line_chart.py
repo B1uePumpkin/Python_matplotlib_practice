@@ -23,7 +23,7 @@ plt.rc('font', family='Microsoft YaHei')
 
 # include csv file
 import csv
-file=open('data.csv', encoding='utf-8')
+file=open('line_chart_data.csv', encoding='utf-8')
 csvreader = csv.reader(file)
 
 header = next(csvreader)
